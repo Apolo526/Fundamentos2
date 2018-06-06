@@ -6,41 +6,39 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:background="@color/colorPrimary">
-
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
+        android:background="@color/colorPrimary"
         android:orientation="vertical">
 
-        <Toolbar
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:title="ITSP DE REY"
-            android:subtitle="Ing. informatica">
+            android:orientation="vertical">
 
-        </Toolbar>
-    </LinearLayout>
+            <Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:subtitle="Ing. informatica"
+                android:title="ITSP DE REY">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+            </Toolbar>
+        </LinearLayout>
 
-        <EditText
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="SALUDOS DEVELOPER"/>
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SALUDOS DEVELOPER" />
 
 
+        </LinearLayout>
 
 
     </LinearLayout>
-
-
-</LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
