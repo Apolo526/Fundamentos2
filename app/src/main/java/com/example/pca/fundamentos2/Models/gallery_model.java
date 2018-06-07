@@ -7,61 +7,30 @@ import com.example.pca.fundamentos2.R;
 
 import java.util.Random;
 
-public class gallery_model implements Parcelable {
-
-    public gallery_model(String name, int idImagen) {
-        this.name = name;
-        this.idImagen = idImagen;
-    }
+public class gallery_model  {
 
     private String name;
-    private int idImagen;
+    private int idT;
 
-    protected gallery_model(Parcel in) {
-        name = in.readString();
-        idImagen = in.readInt();
+    public gallery_model(String name, int idDrawable) {
+        this.name = name;
+        this.idT = idT;
     }
 
-    public static final Creator<gallery_model> CREATOR = new Creator<gallery_model>() {
-        @Override
-        public gallery_model createFromParcel(Parcel in) {
-            return new gallery_model(in);
-        }
-
-        @Override
-        public gallery_model[] newArray(int size) {
-            return new gallery_model[size];
-        }
-    };
+    public gallery_model(String name) {
+        this.name = name;
+        this.idT = getToyota();
+    }
 
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public int getIdT() {
+        return idT;
     }
 
-    public int getIdImagen() {
-        return idImagen;
-    }
-
-    public void setIdImagen(int idImagen) {
-        this.idImagen = idImagen;
-    }
-
-    @Override
-    public int describeContents() {
-        return 0;
-    }
-
-    @Override
-    public void writeToParcel(Parcel dest, int flags) {
-
-    }
-
-
-    private int getRandomGirlDrawable() {
+    private int getToyota() {
         Random rnd = new Random();
         switch (rnd.nextInt(8)) {
             default:
