@@ -13,14 +13,14 @@ import com.example.pca.fundamentos2.Adapters.PagerAdapter;
 
 public class MainActivity extends AppCompatActivity {
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        //setSupportActionBar(toolbar);
-        toolbar.setTitle("PoloCorp");
-        toolbar.setSubtitle("Ing. Hdz");
+            @Override
+            protected void onCreate(Bundle savedInstanceState) {
+                super.onCreate(savedInstanceState);
+                setContentView(R.layout.activity_main);
+                Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+                //setSupportActionBar(toolbar);
+                toolbar.setTitle("PoloCorp");
+                toolbar.setSubtitle("Ing. Hdz");
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tab_layout);
         tabLayout.addTab(tabLayout.newTab().setText("Fragment 1"));
