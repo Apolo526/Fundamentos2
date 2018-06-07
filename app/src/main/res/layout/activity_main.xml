@@ -5,7 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="100dp"
@@ -20,8 +22,9 @@
             <Toolbar
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:subtitle="Ing. informatica"
-                android:title="ITSP DE REY">
+                android:subtitle="Ing.Hdz."
+                android:title="EL JEFE"
+                android:gravity="center">
 
             </Toolbar>
         </LinearLayout>
@@ -33,12 +36,12 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="SALUDOS DEVELOPER" />
+                android:text="SALUDOS PENDEJETE" />
 
 
         </LinearLayout>
 
 
     </LinearLayout>
-
+</ScrollView>
 </android.support.constraint.ConstraintLayout>
