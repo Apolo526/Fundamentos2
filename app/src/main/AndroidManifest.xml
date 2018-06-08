@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activitys.Galeria_detalles"></activity>
+        <activity android:name=".Activitys.Galeria_detalles" />
+        <activity android:name=".Activitys.activity_recycler1"></activity>
     </application>
 
 </manifest>
