@@ -43,7 +43,9 @@ public class activity_recycler1 extends AppCompatActivity {
     }
     private void setToolbar() {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+        //setSupportActionBar(toolbar);
+        toolbar.setTitle("PoloCorp");
+        toolbar.setSubtitle("Inge.Hdz");
     }
 
     @Override
