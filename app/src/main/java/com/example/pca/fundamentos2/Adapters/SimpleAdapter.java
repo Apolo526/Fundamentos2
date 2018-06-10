@@ -23,7 +23,7 @@ public class SimpleAdapter extends RecyclerView.Adapter<SimpleAdapter.SimpleView
 
     public static class SimpleViewHolder extends RecyclerView.ViewHolder
             implements View.OnClickListener {
-        // Campos respectivos de un item
+        //Campos respectivos de un item
         public TextView nombre;
         public ImageView avatar;
         public ItemClickListener listener;

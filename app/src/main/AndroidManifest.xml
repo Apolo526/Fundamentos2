@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".MainActivity" />
         <activity android:name=".Activitys.Galeria_detalles" />
-        <activity android:name=".Activitys.Menu_principal_activity"></activity>
+        <activity android:name=".Activitys.Menu_principal_activity" />
+        <activity android:name=".Activitys.iwish_activity"></activity>
     </application>
 
 </manifest>
